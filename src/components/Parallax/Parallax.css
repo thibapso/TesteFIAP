@@ -1,0 +1,15 @@
+.parallax {
+     position: relative;
+     height: 60vh;
+     overflow: hidden;
+}
+
+.parallax-background {
+     background-image: url('/ParallaxCapa.png');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     width: 100%;
+     height: 100%;
+}

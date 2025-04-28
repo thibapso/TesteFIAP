@@ -1,0 +1,45 @@
+/* Variables CSS */
+:root {
+     /* Cores */
+     --magenta: #ed145b;
+     --chinese-black: #101010;
+     --black: #000000;
+     --pastel-blue: #acc1cc;
+     --davys-grey: #555555;
+     --cultured: #f5f5f5;
+     --spanish-blue: #006bb7;
+     --silver-foil: #afafaf;
+
+     /* Fontes */
+     --font-roboto: 'Roboto', sans-serif;
+     --font-gotham: 'Gotham HTF', sans-serif;
+}
+
+/* Importando a família de fontes Gotham HTF */
+@font-face {
+     font-family: "Gotham HTF";
+     src: url("/fonts/gotham/GothamHTF-Light.otf") format("opentype");
+     font-weight: 300;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "Gotham HTF";
+     src: url("/fonts/gotham/GothamHTF-Book.otf") format("opentype");
+     font-weight: 400;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "Gotham HTF";
+     src: url("/fonts/gotham/GothamHTF-Medium.otf") format("opentype");
+     font-weight: 500;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: "Gotham HTF";
+     src: url("/fonts/gotham/GothamHTF-Bold.otf") format("opentype");
+     font-weight: 700;
+     font-style: normal;
+}

@@ -1,0 +1,40 @@
+.scroll-to-top {
+     position: fixed;
+     bottom: 40px;
+     right: 40px;
+     width: 60px;
+     height: 60px;
+     color: var(--magenta);
+     background-color: transparent;
+     border: 1px solid var(--magenta);
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     opacity: 0;
+     transform: scale(0.8);
+     transition: opacity 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+     z-index: 10;
+     pointer-events: none;
+}
+
+.scroll-to-top.visible {
+     opacity: 1;
+     transform: scale(1);
+     pointer-events: auto;
+}
+
+.scroll-to-top:hover {
+     box-shadow: 0 0 15px var(--magenta);
+}
+
+.scroll-to-top:hover .scroll-icon {
+     transform: translateY(0);
+     transition: transform 0.2s ease-in-out;
+}
+
+.scroll-icon {
+     width: 24px;
+     height: 24px;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Gotham HTF';
+  src: url('/caminho/para/a/fonte/GothamHTF.woff2') format('woff2'),
+    url('/caminho/para/a/fonte/GothamHTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Gotham HTF', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--cultured);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ED145B;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(237, 20, 91, 0.25);
+  border-radius: 100px;
+}
